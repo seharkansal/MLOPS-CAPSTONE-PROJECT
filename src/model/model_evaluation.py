@@ -10,7 +10,6 @@ import dagshub
 import os
 from src.logger import logging
 
-
 # Below code block is for production use
 # -------------------------------------------------------------------------------------
 # Set up DagsHub credentials for MLflow tracking
@@ -26,7 +25,7 @@ repo_owner = "seharkansal"
 repo_name = "MLOPS-CAPSTONE-PROJECT"
 
 # Set up MLflow tracking URI
-# mlflow.set_tracking_uri('https://dagshub.com/seharkansal/MLOPS-CAPSTONE-PROJECT.mlflow')
+mlflow.set_tracking_uri('https://dagshub.com/seharkansal/MLOPS-CAPSTONE-PROJECT.mlflow')
 # -------------------------------------------------------------------------------------
 
 # Below code block is for local use
